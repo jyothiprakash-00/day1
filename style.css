@@ -1,0 +1,30 @@
+h1{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    cursor: grab;
+}
+#first{
+    color: blueviolet;                           
+}
+.first{
+    color:chartreuse;
+}
+.box{
+color: crimson;
+margin: 50px;
+padding: 50px;
+border: 2px;
+border-style: dashed;
+display: flex;
+justify-content: center;
+width: 200px;
+height: 200px;
+align-items: center;
+}
+}
+
+
+/* class=.   id=#*/
+/* flex,aligh-item  for make it center */
