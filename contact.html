@@ -8,21 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
-    <h1>CONTACT DETAILS</h1>
-    <div class="contact">
-    <form action=""> 
-       <div class="box"> <label for="">Name</label>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact</h2>
+        </div>
+        <div class="row">
         
-        <label for="">:Jyothi prakash</label><br>
-        
-        <label for="">Email id</label>
-    
-        <label for="">:jyothiprakash@gmail.com</label><br>
-        
-        <label for="">phone number</label>
-        
-        <label for="">:9567545943</label><br>
-    </div>
-      </form>
-    </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name..">
+              <label for="emailid">Email Id</label>
+              <input type="text" id="emailid" emailid="emailid" placeholder="your emailid..">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div></div>
+      </div>
 </body>
